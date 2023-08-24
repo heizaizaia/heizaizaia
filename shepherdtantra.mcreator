@@ -1,0 +1,547 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ceshi",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceshi"
+    },
+    {
+      "name": "BaseTantra",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_tantra"
+    },
+    {
+      "name": "BaseTantraCreate",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_tantra_create"
+    },
+    {
+      "name": "ShepherdTantra",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherd_tantra"
+    },
+    {
+      "name": "HumanfleshWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humanflesh_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Humanflesh",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humanflesh"
+    },
+    {
+      "name": "KnifeDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knifecreaft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knifecreaft"
+    },
+    {
+      "name": "Knife",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife"
+    },
+    {
+      "name": "TantraPowerDangWuPinZaiShouShangMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_power_dang_wu_pin_zai_shou_shang_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantraPowerDangHuoZhaoDeShiTiBeiGaiWuPinJiZhong",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_power_dang_huo_zhao_de_shi_ti_bei_gai_wu_pin_ji_zhong",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantraPowerDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_power_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantraPower",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_power"
+    },
+    {
+      "name": "PowerTantra",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_tantra"
+    },
+    {
+      "name": "ShepherdMine",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherd_mine"
+    },
+    {
+      "name": "HerdingIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herding_ingot"
+    },
+    {
+      "name": "BurningShepherdMine",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_shepherd_mine"
+    },
+    {
+      "name": "TantraDevotionDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_devotion_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantraDevotionDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_devotion_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantraDevotion",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_devotion"
+    },
+    {
+      "name": "DevotianCreate",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devotian_create"
+    },
+    {
+      "name": "BloowBolwWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloow_bolw_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloowBolw",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloow_bolw"
+    },
+    {
+      "name": "BloowBolwCreate",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloow_bolw_create"
+    },
+    {
+      "name": "Bloowbolwcreate2",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloowbolwcreate_2"
+    },
+    {
+      "name": "TantraLove",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_love"
+    },
+    {
+      "name": "Loves",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loves"
+    },
+    {
+      "name": "TantraLoveCreaft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_love_creaft"
+    },
+    {
+      "name": "Ashes",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashes"
+    },
+    {
+      "name": "Lovescreaft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lovescreaft"
+    },
+    {
+      "name": "Ashescreaft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashescreaft"
+    },
+    {
+      "name": "RaiseBow",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_bow"
+    },
+    {
+      "name": "RaiseBowCreaft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_bow_creaft"
+    },
+    {
+      "name": "RaiseArrowCreaft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_arrow_creaft"
+    },
+    {
+      "name": "TantraLoveDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantra_love_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PastoralTouKuiShiJianMeiYouXiKe",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoral_tou_kui_shi_jian_mei_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pastoral",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoral",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PastoralCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoral_craft"
+    },
+    {
+      "name": "PastoralCraftHelmet",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoral_craft_helmet"
+    },
+    {
+      "name": "PastoralcraftLegs",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoralcraft_legs"
+    },
+    {
+      "name": "PastoralcraftShoes",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastoralcraft_shoes"
+    },
+    {
+      "name": "AshesDros",
+      "type": "loottable",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashes_dros"
+    },
+    {
+      "name": "RaiseArrowExtension",
+      "type": "itemextension",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_arrow_extension"
+    },
+    {
+      "name": "Lovefuel",
+      "type": "itemextension",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lovefuel"
+    },
+    {
+      "name": "RaiseArrowW",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_arrow_w"
+    },
+    {
+      "name": "RaiseArrow",
+      "type": "rangeditem",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_arrow"
+    },
+    {
+      "name": "RedLogs",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_logs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.shepherdtantra.knife": "Knife",
+      "item.shepherdtantra.tantra_love": "Tantra Love",
+      "block.shepherdtantra.red_logs": "Red Logs",
+      "itemGroup.tabshepherd_tantra": "Shepherd Tantra",
+      "item.shepherdtantra.raise_arrow": "Raise Arrow",
+      "item.shepherdtantra.pastoral_boots": "Pastoral 靴子",
+      "item.shepherdtantra.pastoral_chestplate": "Pastoral 胸甲",
+      "item.shepherdtantra.raise_arrow_w": "Raise Arrow W",
+      "item.shepherdtantra.bloow_bolw": "Bloow Bolw",
+      "item.shepherdtantra.tantra_devotion": "Tantra Devotion",
+      "item.shepherdtantra.loves": "Loves",
+      "block.shepherdtantra.shepherd_mine": "Shepherd Mine",
+      "item.shepherdtantra.herding_ingot": "Herding Ingot",
+      "item.shepherdtantra.ashes": "Ashes",
+      "item.shepherdtantra.pastoral_leggings": "Pastoral 护腿",
+      "item.shepherdtantra.pastoral_helmet": "Pastoral 头盔",
+      "item.shepherdtantra.humanflesh": "Humanflesh",
+      "item.shepherdtantra.raise_bow": "Raise Bow",
+      "item.shepherdtantra.base_tantra": "Base Tantra",
+      "item.shepherdtantra.tantra_power": "Tantra Power",
+      "item.shepherdtantra.ceshi": "牧羊碗"
+    },
+    "zh_cn": {
+      "item.shepherdtantra.knife": "仪式刀",
+      "item.shepherdtantra.tantra_love": "密续 [爱意]",
+      "block.shepherdtantra.red_logs": "Red Logs",
+      "itemGroup.tabshepherd_tantra": "牧者密续",
+      "item.shepherdtantra.raise_arrow": "牧养箭",
+      "item.shepherdtantra.pastoral_boots": "牧养靴子",
+      "item.shepherdtantra.pastoral_chestplate": "牧养胸甲",
+      "item.shepherdtantra.raise_arrow_w": "牧养箭",
+      "item.shepherdtantra.bloow_bolw": "血碗",
+      "item.shepherdtantra.tantra_devotion": "密续 [奉献]",
+      "item.shepherdtantra.loves": "爱",
+      "block.shepherdtantra.shepherd_mine": "牧养矿",
+      "item.shepherdtantra.herding_ingot": "牧养锭",
+      "item.shepherdtantra.ashes": "灰烬",
+      "item.shepherdtantra.pastoral_leggings": "牧养护腿",
+      "item.shepherdtantra.pastoral_helmet": "牧养头盔",
+      "item.shepherdtantra.humanflesh": "仪式肉",
+      "item.shepherdtantra.raise_bow": "牧养弓",
+      "item.shepherdtantra.base_tantra": "密续 [万物之基]",
+      "item.shepherdtantra.tantra_power": "密续 [威权]",
+      "item.shepherdtantra.ceshi": "牧羊碗"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shepherdtantra",
+    "modName": "ShepherdTantra",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.shepherdtantra",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
