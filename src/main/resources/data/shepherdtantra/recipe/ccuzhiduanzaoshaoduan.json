@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cuzhishaoduan",
+  "category": "misc",
+  "experience": 20,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "shepherdtantra:ccuzhiduanzao"
+  },
+  "result": {
+    "id": "shepherdtantra:bblack_1"
+  }
+}

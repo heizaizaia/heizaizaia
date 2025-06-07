@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shepherdtantra:cucaoshuij"
+    },
+    {
+      "item": "shepherdtantra:cucaoshuij"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "shepherdtantra:cucaoshuij"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "shepherdtantra:cucaoshuij"
+    }
+  ],
+  "result": {
+    "id": "shepherdtantra:ccuzhiduanzao",
+    "count": 1
+  }
+}

@@ -21,5 +21,6 @@ public class ShepherdtantraModTabs {
 				tabData.accept(ShepherdtantraModItems.BBLACK_1.get());
 				tabData.accept(ShepherdtantraModItems.CUCAOSHUIJ.get());
 				tabData.accept(ShepherdtantraModBlocks.CUCUCAOSHUIJINKUANG.get().asItem());
+				tabData.accept(ShepherdtantraModItems.CCUZHIDUANZAO.get());
 			}).build());
 }

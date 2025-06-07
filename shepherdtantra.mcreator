@@ -63,6 +63,43 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Ccuzhiduanzao",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccuzhiduanzao",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/item/CcuzhiduanzaoItem.java",
+          "src/main/resources/assets/shepherdtantra/models/item/ccuzhiduanzao.json"
+        ]
+      }
+    },
+    {
+      "name": "Duduanzaohejhec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duduanzaohejhec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shepherdtantra/recipe/duduanzaohejhec.json"
+        ]
+      }
+    },
+    {
+      "name": "Ccuzhiduanzaoshaoduan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccuzhiduanzaoshaoduan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shepherdtantra/recipe/ccuzhiduanzaoshaoduan.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -78,12 +115,14 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.shepherdtantra.ccuzhiduanzao": "Ccuzhiduanzao",
       "item.shepherdtantra.bblack_1": "Bblack 1",
       "item_group.shepherdtantra.shshepherd": "Shshepherd",
       "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
       "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
     },
     "zh_cn": {
+      "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
       "item.shepherdtantra.bblack_1": "锻造合金",
       "item_group.shepherdtantra.shshepherd": "神人模组物品",
       "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
