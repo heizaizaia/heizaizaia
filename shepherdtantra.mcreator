@@ -12,18 +12,70 @@
           "src/main/java/net/mcreator/shepherdtantra/item/Bblack1Item.java"
         ]
       }
+    },
+    {
+      "name": "Cucaoshuij",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucaoshuij",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/item/CucaoshuijItem.java",
+          "src/main/resources/assets/shepherdtantra/models/item/cucaoshuij.json"
+        ]
+      }
+    },
+    {
+      "name": "Cucucaoshuijinkuang",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucucaoshuijinkuang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shepherdtantra/models/item/cucucaoshuijinkuang.json",
+          "src/main/java/net/mcreator/shepherdtantra/block/CucucaoshuijinkuangBlock.java",
+          "src/main/resources/assets/shepherdtantra/blockstates/cucucaoshuijinkuang.json",
+          "src/main/resources/assets/shepherdtantra/models/block/cucucaoshuijinkuang.json",
+          "src/main/resources/data/shepherdtantra/loot_table/blocks/cucucaoshuijinkuang.json"
+        ]
+      }
+    },
+    {
+      "name": "Ccucaoshuijinshaozhi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccucaoshuijinshaozhi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shepherdtantra/recipe/ccucaoshuijinshaozhi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Cucucaoshuijinkuang"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Cucucaoshuijinkuang"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.shepherdtantra.bblack_1": "Forged alloy"
+      "item.shepherdtantra.bblack_1": "Forged alloy",
+      "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
+      "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
     },
     "zh_cn": {
-      "item.shepherdtantra.bblack_1": "锻造合金"
+      "item.shepherdtantra.bblack_1": "锻造合金",
+      "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
+      "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
     }
   },
   "foldersRoot": {

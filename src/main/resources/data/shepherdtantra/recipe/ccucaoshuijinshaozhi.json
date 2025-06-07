@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cucaoshao",
+  "category": "blocks",
+  "experience": 1.5,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "shepherdtantra:cucucaoshuijinkuang"
+  },
+  "result": {
+    "id": "shepherdtantra:cucaoshuij"
+  }
+}

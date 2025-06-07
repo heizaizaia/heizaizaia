@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.shepherdtantra.init.ShepherdtantraModItems;
+import net.mcreator.shepherdtantra.init.ShepherdtantraModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -37,6 +38,8 @@ public class ShepherdtantraMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		ShepherdtantraModBlocks.REGISTRY.register(modEventBus);
 
 		ShepherdtantraModItems.REGISTRY.register(modEventBus);
 

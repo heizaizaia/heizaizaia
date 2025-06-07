@@ -1,23 +1,5 @@
 {
-  "item.shepherdtantra.knife": "仪式刀",
-  "item.shepherdtantra.tantra_love": "密续 [爱意]",
-  "block.shepherdtantra.red_logs": "Red Logs",
-  "itemGroup.tabshepherd_tantra": "牧者密续",
-  "item.shepherdtantra.raise_arrow": "牧养箭",
-  "item.shepherdtantra.pastoral_boots": "牧养靴子",
-  "item.shepherdtantra.pastoral_chestplate": "牧养胸甲",
-  "item.shepherdtantra.raise_arrow_w": "牧养箭",
-  "item.shepherdtantra.bloow_bolw": "血碗",
-  "item.shepherdtantra.tantra_devotion": "密续 [奉献]",
-  "item.shepherdtantra.loves": "爱",
-  "block.shepherdtantra.shepherd_mine": "牧养矿",
-  "item.shepherdtantra.herding_ingot": "牧养锭",
-  "item.shepherdtantra.ashes": "灰烬",
-  "item.shepherdtantra.pastoral_leggings": "牧养护腿",
-  "item.shepherdtantra.pastoral_helmet": "牧养头盔",
-  "item.shepherdtantra.humanflesh": "仪式肉",
-  "item.shepherdtantra.raise_bow": "牧养弓",
-  "item.shepherdtantra.base_tantra": "密续 [万物之基]",
-  "item.shepherdtantra.tantra_power": "密续 [威权]",
-  "item.shepherdtantra.ceshi": "牧羊碗"
+  "item.shepherdtantra.bblack_1": "锻造合金",
+  "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
+  "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
 }

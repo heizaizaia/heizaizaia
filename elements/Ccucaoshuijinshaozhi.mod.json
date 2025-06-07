@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "cucaoshao",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.5,
+    "cookingTime": 400,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Cucucaoshuijinkuang"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Cucaoshuij"
+    },
+    "name": "ccucaoshuijinshaozhi",
+    "namespace": "mod"
+  }
+}
