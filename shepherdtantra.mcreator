@@ -1,14 +1,15 @@
 {
   "mod_elements": [
     {
-      "name": "Cbc",
-      "type": "recipe",
+      "name": "Bblack1",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cbc",
+      "registry_name": "bblack_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/shepherdtantra/recipe/cbc.json"
+          "src/main/resources/assets/shepherdtantra/models/item/bblack_1.json",
+          "src/main/java/net/mcreator/shepherdtantra/item/Bblack1Item.java"
         ]
       }
     }
@@ -19,50 +20,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.shepherdtantra.knife": "Knife",
-      "item.shepherdtantra.tantra_love": "Tantra Love",
-      "block.shepherdtantra.red_logs": "Red Logs",
-      "itemGroup.tabshepherd_tantra": "Shepherd Tantra",
-      "item.shepherdtantra.raise_arrow": "Raise Arrow",
-      "item.shepherdtantra.pastoral_boots": "Pastoral 靴子",
-      "item.shepherdtantra.pastoral_chestplate": "Pastoral 胸甲",
-      "item.shepherdtantra.raise_arrow_w": "Raise Arrow W",
-      "item.shepherdtantra.bloow_bolw": "Bloow Bolw",
-      "item.shepherdtantra.tantra_devotion": "Tantra Devotion",
-      "item.shepherdtantra.loves": "Loves",
-      "block.shepherdtantra.shepherd_mine": "Shepherd Mine",
-      "item.shepherdtantra.herding_ingot": "Herding Ingot",
-      "item.shepherdtantra.ashes": "Ashes",
-      "item.shepherdtantra.pastoral_leggings": "Pastoral 护腿",
-      "item.shepherdtantra.pastoral_helmet": "Pastoral 头盔",
-      "item.shepherdtantra.humanflesh": "Humanflesh",
-      "item.shepherdtantra.raise_bow": "Raise Bow",
-      "item.shepherdtantra.base_tantra": "Base Tantra",
-      "item.shepherdtantra.tantra_power": "Tantra Power",
-      "item.shepherdtantra.ceshi": "牧羊碗"
+      "item.shepherdtantra.bblack_1": "Forged alloy"
     },
     "zh_cn": {
-      "item.shepherdtantra.knife": "仪式刀",
-      "item.shepherdtantra.tantra_love": "密续 [爱意]",
-      "block.shepherdtantra.red_logs": "Red Logs",
-      "itemGroup.tabshepherd_tantra": "牧者密续",
-      "item.shepherdtantra.raise_arrow": "牧养箭",
-      "item.shepherdtantra.pastoral_boots": "牧养靴子",
-      "item.shepherdtantra.pastoral_chestplate": "牧养胸甲",
-      "item.shepherdtantra.raise_arrow_w": "牧养箭",
-      "item.shepherdtantra.bloow_bolw": "血碗",
-      "item.shepherdtantra.tantra_devotion": "密续 [奉献]",
-      "item.shepherdtantra.loves": "爱",
-      "block.shepherdtantra.shepherd_mine": "牧养矿",
-      "item.shepherdtantra.herding_ingot": "牧养锭",
-      "item.shepherdtantra.ashes": "灰烬",
-      "item.shepherdtantra.pastoral_leggings": "牧养护腿",
-      "item.shepherdtantra.pastoral_helmet": "牧养头盔",
-      "item.shepherdtantra.humanflesh": "仪式肉",
-      "item.shepherdtantra.raise_bow": "牧养弓",
-      "item.shepherdtantra.base_tantra": "密续 [万物之基]",
-      "item.shepherdtantra.tantra_power": "密续 [威权]",
-      "item.shepherdtantra.ceshi": "牧羊碗"
+      "item.shepherdtantra.bblack_1": "锻造合金"
     }
   },
   "foldersRoot": {
