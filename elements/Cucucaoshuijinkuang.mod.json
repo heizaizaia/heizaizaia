@@ -42,7 +42,11 @@
     "resistance": 100.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Shshepherd"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -125,9 +129,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 10,
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 8,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 40
   }
 }

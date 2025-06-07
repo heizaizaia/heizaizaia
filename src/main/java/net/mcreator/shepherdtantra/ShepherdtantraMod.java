@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.shepherdtantra.init.ShepherdtantraModTabs;
 import net.mcreator.shepherdtantra.init.ShepherdtantraModItems;
 import net.mcreator.shepherdtantra.init.ShepherdtantraModBlocks;
 
@@ -42,6 +43,8 @@ public class ShepherdtantraMod {
 		ShepherdtantraModBlocks.REGISTRY.register(modEventBus);
 
 		ShepherdtantraModItems.REGISTRY.register(modEventBus);
+
+		ShepherdtantraModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

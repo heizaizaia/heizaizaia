@@ -53,6 +53,16 @@
           "src/main/resources/data/shepherdtantra/recipe/ccucaoshuijinshaozhi.json"
         ]
       }
+    },
+    {
+      "name": "Shshepherd",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shshepherd",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -68,14 +78,16 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.shepherdtantra.bblack_1": "Forged alloy",
+      "item.shepherdtantra.bblack_1": "Bblack 1",
+      "item_group.shepherdtantra.shshepherd": "Shshepherd",
       "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
       "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
     },
     "zh_cn": {
       "item.shepherdtantra.bblack_1": "锻造合金",
-      "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
-      "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
+      "item_group.shepherdtantra.shshepherd": "神人模组物品",
+      "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
+      "item.shepherdtantra.cucaoshuij": "粗糙水晶"
     }
   },
   "foldersRoot": {

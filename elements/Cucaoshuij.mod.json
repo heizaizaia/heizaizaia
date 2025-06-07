@@ -9,7 +9,11 @@
     "states": [],
     "name": "Cucaoshuij",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Shshepherd"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
