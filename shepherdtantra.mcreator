@@ -181,6 +181,21 @@
         "files": [
           "src/main/java/net/mcreator/shepherdtantra/procedures/KingscrownsShuXingZhiTiGongQiProcedure.java"
         ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KingsExtensionShuXingZhiTiGongQi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kings_extension_shu_xing_zhi_ti_gong_qi",
+      "metadata": {
         "dependencies": []
       }
     }

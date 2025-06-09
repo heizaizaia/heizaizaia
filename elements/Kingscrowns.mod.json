@@ -40,6 +40,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "KingscrownsShuXingZhiTiGongQi"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
