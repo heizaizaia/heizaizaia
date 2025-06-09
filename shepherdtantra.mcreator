@@ -100,6 +100,24 @@
           "src/main/resources/data/shepherdtantra/recipe/ccuzhiduanzaoshaoduan.json"
         ]
       }
+    },
+    {
+      "name": "CivilightEternaTeShuXinXi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "civilight_eterna_te_shu_xin_xi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/procedures/CivilightEternaTeShuXinXiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -112,7 +130,14 @@
       "~CUSTOM:Cucucaoshuijinkuang"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:Shshepherd": [
+      "Bblack1",
+      "Cucaoshuij",
+      "Cucucaoshuijinkuang",
+      "Ccuzhiduanzao"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.shepherdtantra.ccuzhiduanzao": "Ccuzhiduanzao",
