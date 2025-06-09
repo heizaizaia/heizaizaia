@@ -118,6 +118,71 @@
           }
         ]
       }
+    },
+    {
+      "name": "Kingscrowns",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingscrowns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/item/KingscrownsItem.java",
+          "src/main/resources/assets/shepherdtantra/models/item/kingscrowns.json"
+        ]
+      }
+    },
+    {
+      "name": "Kingnewgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingnewgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shepherdtantra/models/item/kingnewgun.json",
+          "src/main/java/net/mcreator/shepherdtantra/item/KingnewgunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KingsExtension",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kings_extension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shepherdtantra/models/item/kings_extension.json",
+          "src/main/java/net/mcreator/shepherdtantra/item/KingsExtensionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kingsarmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingsarmor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/item/KingsarmorItem.java",
+          "src/main/resources/assets/shepherdtantra/models/item/kingsarmor.json"
+        ]
+      }
+    },
+    {
+      "name": "KingscrownsShuXingZhiTiGongQi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingscrowns_shu_xing_zhi_ti_gong_qi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/procedures/KingscrownsShuXingZhiTiGongQiProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -135,23 +200,51 @@
       "Bblack1",
       "Cucaoshuij",
       "Cucucaoshuijinkuang",
-      "Ccuzhiduanzao"
+      "Ccuzhiduanzao",
+      "Kingscrowns",
+      "Kingnewgun",
+      "KingsExtension",
+      "Kingsarmor"
     ]
   },
   "language_map": {
     "en_us": {
-      "item.shepherdtantra.ccuzhiduanzao": "Ccuzhiduanzao",
-      "item.shepherdtantra.bblack_1": "Bblack 1",
+      "item.shepherdtantra.kingsarmor": "Kingsarmor",
+      "item.shepherdtantra.kingnewgun": "Kingnewgun",
       "item_group.shepherdtantra.shshepherd": "Shshepherd",
+      "item.shepherdtantra.bblack_1": "Bblack 1",
       "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
-      "item.shepherdtantra.cucaoshuij": "Cucaoshuij"
+      "item.shepherdtantra.cucaoshuij": "Cucaoshuij",
+      "item.shepherdtantra.kingscrowns": "Kingscrowns",
+      "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
+      "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality, ",
+      "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
+      "item.shepherdtantra.kings_extension.description_2": "and arming friends with tolerance and kindness.",
+      "item.shepherdtantra.kingscrowns.description_0": "Unknown kings !",
+      "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction,",
+      "item.shepherdtantra.kings_extension": "Kings Extension",
+      "item.shepherdtantra.ccuzhiduanzao": "Ccuzhiduanzao",
+      "item.shepherdtantra.kingnewgun.description_0": "The beautiful wishes in dire straits can bring hope to people, ",
+      "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth."
     },
     "zh_cn": {
-      "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
-      "item.shepherdtantra.bblack_1": "锻造合金",
+      "item.shepherdtantra.kingsarmor": "Kingsarmor",
+      "item.shepherdtantra.kingnewgun": "Kingnewgun",
       "item_group.shepherdtantra.shshepherd": "神人模组物品",
+      "item.shepherdtantra.bblack_1": "锻造合金",
       "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
-      "item.shepherdtantra.cucaoshuij": "粗糙水晶"
+      "item.shepherdtantra.cucaoshuij": "粗糙水晶",
+      "item.shepherdtantra.kingscrowns": "Kingscrowns",
+      "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
+      "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality, ",
+      "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
+      "item.shepherdtantra.kings_extension.description_2": "and arming friends with tolerance and kindness.",
+      "item.shepherdtantra.kingscrowns.description_0": "Unknown kings !",
+      "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction,",
+      "item.shepherdtantra.kings_extension": "Kings Extension",
+      "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
+      "item.shepherdtantra.kingnewgun.description_0": "The beautiful wishes in dire straits can bring hope to people, ",
+      "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth."
     }
   },
   "foldersRoot": {

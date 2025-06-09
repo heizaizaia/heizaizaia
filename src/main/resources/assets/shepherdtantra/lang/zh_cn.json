@@ -1,7 +1,19 @@
 {
-  "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
-  "item.shepherdtantra.bblack_1": "锻造合金",
+  "item.shepherdtantra.kingsarmor": "Kingsarmor",
+  "item.shepherdtantra.kingnewgun": "Kingnewgun",
   "item_group.shepherdtantra.shshepherd": "神人模组物品",
+  "item.shepherdtantra.bblack_1": "锻造合金",
   "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
-  "item.shepherdtantra.cucaoshuij": "粗糙水晶"
+  "item.shepherdtantra.cucaoshuij": "粗糙水晶",
+  "item.shepherdtantra.kingscrowns": "Kingscrowns",
+  "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
+  "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality, ",
+  "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
+  "item.shepherdtantra.kings_extension.description_2": "and arming friends with tolerance and kindness.",
+  "item.shepherdtantra.kingscrowns.description_0": "Unknown kings !",
+  "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction,",
+  "item.shepherdtantra.kings_extension": "Kings Extension",
+  "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
+  "item.shepherdtantra.kingnewgun.description_0": "The beautiful wishes in dire straits can bring hope to people, ",
+  "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth."
 }
