@@ -18,7 +18,6 @@ import net.mcreator.shepherdtantra.item.KingsExtensionItem;
 import net.mcreator.shepherdtantra.item.KingnewgunItem;
 import net.mcreator.shepherdtantra.item.CucaoshuijItem;
 import net.mcreator.shepherdtantra.item.CcuzhiduanzaoItem;
-import net.mcreator.shepherdtantra.item.CcesItem;
 import net.mcreator.shepherdtantra.item.Bblack1Item;
 import net.mcreator.shepherdtantra.ShepherdtantraMod;
 
@@ -31,7 +30,6 @@ public class ShepherdtantraModItems {
 	public static final DeferredItem<Item> KINGSCROWNS = REGISTRY.register("kingscrowns", KingscrownsItem::new);
 	public static final DeferredItem<Item> KINGNEWGUN = REGISTRY.register("kingnewgun", KingnewgunItem::new);
 	public static final DeferredItem<Item> KINGSARMOR = REGISTRY.register("kingsarmor", KingsarmorItem::new);
-	public static final DeferredItem<Item> CCES_HELMET = REGISTRY.register("cces_helmet", CcesItem.Helmet::new);
 	public static final DeferredItem<Item> KINGS_EXTENSION = REGISTRY.register("kings_extension", KingsExtensionItem::new);
 
 	// Start of user code block custom items

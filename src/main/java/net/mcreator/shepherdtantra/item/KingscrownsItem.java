@@ -6,20 +6,34 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.shepherdtantra.procedures.KingscrownsShuXingZhiTiGongQiProcedure;
+import net.mcreator.shepherdtantra.procedures.KingscrownsWanJiaWanChengShiYongWuPinShiProcedure;
 
 import java.util.List;
 
 public class KingscrownsItem extends Item {
 	public KingscrownsItem() {
 		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
+	}
+
+	@Override
+	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
+		return 100;
 	}
 
 	@Override
@@ -37,8 +51,10 @@ public class KingscrownsItem extends Item {
 	}
 
 	@Override
-	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-		super.inventoryTick(itemstack, world, entity, slot, selected);
-		KingscrownsShuXingZhiTiGongQiProcedure.execute(entity);
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		entity.startUsingItem(hand);
+		KingscrownsWanJiaWanChengShiYongWuPinShiProcedure.execute(world, entity);
+		return ar;
 	}
 }

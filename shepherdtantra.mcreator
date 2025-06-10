@@ -161,7 +161,7 @@
     {
       "name": "KingscrownsShuXingZhiTiGongQi",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "kingscrowns_shu_xing_zhi_ti_gong_qi",
       "metadata": {
@@ -177,19 +177,6 @@
       }
     },
     {
-      "name": "Cces",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cces",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/shepherdtantra/models/item/cces_helmet.json",
-          "src/main/java/net/mcreator/shepherdtantra/item/CcesItem.java"
-        ]
-      }
-    },
-    {
       "name": "KingsExtension",
       "type": "item",
       "compiles": true,
@@ -199,6 +186,28 @@
         "files": [
           "src/main/resources/assets/shepherdtantra/models/item/kings_extension.json",
           "src/main/java/net/mcreator/shepherdtantra/item/KingsExtensionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KingscrownsWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingscrowns_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shepherdtantra/procedures/KingscrownsWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -211,9 +220,6 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Cucucaoshuijinkuang"
-    ],
-    "ITEMS:minecraft:head_armor": [
-      "~CUSTOM:Cces.helmet"
     ]
   },
   "tab_element_order": {
@@ -235,9 +241,8 @@
       "item_group.shepherdtantra.shshepherd": "Shshepherd",
       "item.shepherdtantra.bblack_1": "Bblack 1",
       "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
-      "item.shepherdtantra.cces_helmet": "Cces头盔",
       "item.shepherdtantra.cucaoshuij": "Cucaoshuij",
-      "item.shepherdtantra.kingscrowns": "kingscrowns",
+      "item.shepherdtantra.kingscrowns": "Kingscrowns",
       "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
       "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality,  ",
       "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
@@ -258,7 +263,6 @@
       "item_group.shepherdtantra.shshepherd": "神人模组物品",
       "item.shepherdtantra.bblack_1": "锻造合金",
       "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
-      "item.shepherdtantra.cces_helmet": "Cces头盔",
       "item.shepherdtantra.cucaoshuij": "粗糙水晶",
       "item.shepherdtantra.kingscrowns": "诸王的冠冕",
       "item.shepherdtantra.kingscrowns.description_1": "纵使王国毁灭，",
@@ -273,11 +277,7 @@
       "item.shepherdtantra.kingsarmor.description_0": "王宫的大门前、广场上，",
       "item.shepherdtantra.kingnewgun.description_1": "即使那并不是真相。",
       "item.shepherdtantra.kingsarmor.description_1": "四方珍品尽供欣赏。",
-<<<<<<< HEAD
-      "item.shepherdtantra.kingsarmor.description_2": "But now, just recalling that scene can hurt people."
-=======
       "item.shepherdtantra.kingsarmor.description_2": "而现在，仅仅是回想那个场面就会让人受伤。"
->>>>>>> 46b58f4 (中文)
     }
   },
   "foldersRoot": {
