@@ -146,19 +146,6 @@
       }
     },
     {
-      "name": "KingsExtension",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kings_extension",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/shepherdtantra/models/item/kings_extension.json",
-          "src/main/java/net/mcreator/shepherdtantra/item/KingsExtensionItem.java"
-        ]
-      }
-    },
-    {
       "name": "Kingsarmor",
       "type": "item",
       "compiles": true,
@@ -174,7 +161,7 @@
     {
       "name": "KingscrownsShuXingZhiTiGongQi",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "kingscrowns_shu_xing_zhi_ti_gong_qi",
       "metadata": {
@@ -190,13 +177,29 @@
       }
     },
     {
-      "name": "KingsExtensionShuXingZhiTiGongQi",
-      "type": "procedure",
+      "name": "Cces",
+      "type": "armor",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kings_extension_shu_xing_zhi_ti_gong_qi",
+      "registry_name": "cces",
       "metadata": {
-        "dependencies": []
+        "files": [
+          "src/main/resources/assets/shepherdtantra/models/item/cces_helmet.json",
+          "src/main/java/net/mcreator/shepherdtantra/item/CcesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KingsExtension",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kings_extension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shepherdtantra/models/item/kings_extension.json",
+          "src/main/java/net/mcreator/shepherdtantra/item/KingsExtensionItem.java"
+        ]
       }
     }
   ],
@@ -208,6 +211,9 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Cucucaoshuijinkuang"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Cces.helmet"
     ]
   },
   "tab_element_order": {
@@ -218,8 +224,8 @@
       "Ccuzhiduanzao",
       "Kingscrowns",
       "Kingnewgun",
-      "KingsExtension",
-      "Kingsarmor"
+      "Kingsarmor",
+      "KingsExtension"
     ]
   },
   "language_map": {
@@ -229,37 +235,45 @@
       "item_group.shepherdtantra.shshepherd": "Shshepherd",
       "item.shepherdtantra.bblack_1": "Bblack 1",
       "block.shepherdtantra.cucucaoshuijinkuang": "Cucucaoshuijinkuang",
+      "item.shepherdtantra.cces_helmet": "Cces头盔",
       "item.shepherdtantra.cucaoshuij": "Cucaoshuij",
-      "item.shepherdtantra.kingscrowns": "Kingscrowns",
+      "item.shepherdtantra.kingscrowns": "kingscrowns",
       "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
-      "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality, ",
+      "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality,  ",
       "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
       "item.shepherdtantra.kings_extension.description_2": "and arming friends with tolerance and kindness.",
       "item.shepherdtantra.kingscrowns.description_0": "Unknown kings !",
-      "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction,",
+      "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction, ",
       "item.shepherdtantra.kings_extension": "Kings Extension",
       "item.shepherdtantra.ccuzhiduanzao": "Ccuzhiduanzao",
       "item.shepherdtantra.kingnewgun.description_0": "The beautiful wishes in dire straits can bring hope to people, ",
-      "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth."
+      "item.shepherdtantra.kingsarmor.description_0": "In front of the gate of the palace and on the square, ",
+      "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth.",
+      "item.shepherdtantra.kingsarmor.description_1": "there were so many golden display cabinets, offering treasures from all directions for appreciation.",
+      "item.shepherdtantra.kingsarmor.description_2": "But now, just recalling that scene can hurt people."
     },
     "zh_cn": {
-      "item.shepherdtantra.kingsarmor": "Kingsarmor",
-      "item.shepherdtantra.kingnewgun": "Kingnewgun",
+      "item.shepherdtantra.kingsarmor": "国王的铠甲",
+      "item.shepherdtantra.kingnewgun": "国王的新枪",
       "item_group.shepherdtantra.shshepherd": "神人模组物品",
       "item.shepherdtantra.bblack_1": "锻造合金",
       "block.shepherdtantra.cucucaoshuijinkuang": "粗糙水晶",
+      "item.shepherdtantra.cces_helmet": "Cces头盔",
       "item.shepherdtantra.cucaoshuij": "粗糙水晶",
-      "item.shepherdtantra.kingscrowns": "Kingscrowns",
-      "item.shepherdtantra.kingscrowns.description_1": "even if the kingdom is destroyed, ",
-      "item.shepherdtantra.kings_extension.description_0": "Growing up, recognizing reality, ",
-      "item.shepherdtantra.kingscrowns.description_2": "may you still protect Iberia.",
-      "item.shepherdtantra.kings_extension.description_2": "and arming friends with tolerance and kindness.",
-      "item.shepherdtantra.kingscrowns.description_0": "Unknown kings !",
-      "item.shepherdtantra.kings_extension.description_1": "arming oneself with resilience and conviction,",
-      "item.shepherdtantra.kings_extension": "Kings Extension",
+      "item.shepherdtantra.kingscrowns": "诸王的冠冕",
+      "item.shepherdtantra.kingscrowns.description_1": "纵使王国毁灭，",
+      "item.shepherdtantra.kings_extension.description_0": "成长，认清现实，",
+      "item.shepherdtantra.kingscrowns.description_2": "仍愿您护佑伊比利亚。",
+      "item.shepherdtantra.kings_extension.description_2": "用包容与慈恩武装朋友。",
+      "item.shepherdtantra.kingscrowns.description_0": "无名的诸王啊，",
+      "item.shepherdtantra.kings_extension.description_1": "用坚韧与笃定武装自己，",
+      "item.shepherdtantra.kings_extension": "国王的延伸",
       "item.shepherdtantra.ccuzhiduanzao": "粗制锻造合金",
-      "item.shepherdtantra.kingnewgun.description_0": "The beautiful wishes in dire straits can bring hope to people, ",
-      "item.shepherdtantra.kingnewgun.description_1": "even if it is not the truth."
+      "item.shepherdtantra.kingnewgun.description_0": "绝境下的美好祈愿能带给人希望，",
+      "item.shepherdtantra.kingsarmor.description_0": "王宫的大门前、广场上，",
+      "item.shepherdtantra.kingnewgun.description_1": "即使那并不是真相。",
+      "item.shepherdtantra.kingsarmor.description_1": "四方珍品尽供欣赏。",
+      "item.shepherdtantra.kingsarmor.description_2": "But now, just recalling that scene can hurt people."
     }
   },
   "foldersRoot": {

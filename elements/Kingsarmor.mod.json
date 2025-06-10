@@ -29,7 +29,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "In front of the gate of the palace and on the square, ",
+        "there were so many golden display cabinets, offering treasures from all directions for appreciation.",
+        "But now, just recalling that scene can hurt people."
+      ]
     },
     "glowCondition": {
       "fixedValue": false
