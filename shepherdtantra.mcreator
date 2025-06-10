@@ -273,7 +273,11 @@
       "item.shepherdtantra.kingsarmor.description_0": "王宫的大门前、广场上，",
       "item.shepherdtantra.kingnewgun.description_1": "即使那并不是真相。",
       "item.shepherdtantra.kingsarmor.description_1": "四方珍品尽供欣赏。",
+<<<<<<< HEAD
       "item.shepherdtantra.kingsarmor.description_2": "But now, just recalling that scene can hurt people."
+=======
+      "item.shepherdtantra.kingsarmor.description_2": "而现在，仅仅是回想那个场面就会让人受伤。"
+>>>>>>> 46b58f4 (中文)
     }
   },
   "foldersRoot": {
