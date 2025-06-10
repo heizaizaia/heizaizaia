@@ -159,24 +159,6 @@
       }
     },
     {
-      "name": "KingscrownsShuXingZhiTiGongQi",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kingscrowns_shu_xing_zhi_ti_gong_qi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/shepherdtantra/procedures/KingscrownsShuXingZhiTiGongQiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "KingsExtension",
       "type": "item",
       "compiles": true,
@@ -186,28 +168,6 @@
         "files": [
           "src/main/resources/assets/shepherdtantra/models/item/kings_extension.json",
           "src/main/java/net/mcreator/shepherdtantra/item/KingsExtensionItem.java"
-        ]
-      }
-    },
-    {
-      "name": "KingscrownsWanJiaWanChengShiYongWuPinShi",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kingscrowns_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/shepherdtantra/procedures/KingscrownsWanJiaWanChengShiYongWuPinShiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     }

@@ -17,8 +17,6 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.shepherdtantra.procedures.KingscrownsWanJiaWanChengShiYongWuPinShiProcedure;
-
 import java.util.List;
 
 public class KingscrownsItem extends Item {
@@ -54,7 +52,6 @@ public class KingscrownsItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
 		entity.startUsingItem(hand);
-		KingscrownsWanJiaWanChengShiYongWuPinShiProcedure.execute(world, entity);
 		return ar;
 	}
 }

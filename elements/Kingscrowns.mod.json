@@ -40,9 +40,6 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "KingscrownsWanJiaWanChengShiYongWuPinShi"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
